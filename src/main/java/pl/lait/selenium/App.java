@@ -23,7 +23,8 @@ public class App
     	driver.findElement(By.linkText("REGISTER")).click();
     	sleep(2);
     	driver.findElement(By.linkText("SIGN-ON")).click();
-    	
+    	sleep(2);
+    	driver.quit();
     }
     /*public static void sleep(int seconds){
     	try {
