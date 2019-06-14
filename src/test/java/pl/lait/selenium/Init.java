@@ -16,6 +16,10 @@ public class Init {
     	
     	return driver;
     }
+    
+    public static void quit() {
+    	driver.quit();
+    }
     public static void sleep(int seconds){
     	try {
 			Thread.sleep(seconds*1000);
