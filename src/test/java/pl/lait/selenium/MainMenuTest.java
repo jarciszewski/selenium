@@ -1,6 +1,8 @@
 package pl.lait.selenium;
 
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -78,6 +80,10 @@ public class MainMenuTest {
 		driver.findElement(By.name("findFlights")).click();
 		
 		driver.findElement(By.name("reserveFlights")).click();
+		
+		driver.findElement(By.name("passFirst0")).sendKeys("Jakub");
+		
+		driver.findElement(By.name("passLast0")).sendKeys("A");
 	}
 
 	/*@After
