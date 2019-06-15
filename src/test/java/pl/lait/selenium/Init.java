@@ -8,6 +8,7 @@ public class Init {
 	static WebDriver driver;
 	
     public static WebDriver getDriver() {
+    	System.out.println("wewnątrz getDriver");
     	
     	System.setProperty("webdriver.chrome.driver", "C:\\Users\\E6420\\Downloads\\chromedriver.exe");
     	
@@ -19,6 +20,7 @@ public class Init {
     
     public static void quit() {
     	driver.quit();
+    	driver = null;
     }
     public static void sleep(int seconds){
     	try {
