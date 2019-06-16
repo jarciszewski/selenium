@@ -21,7 +21,6 @@ public class LoginPage {
 	WebElement loginButton;
 	
 	public LoginPage() {
-		System.out.println("wewnątrz konstuktora LoginPage");
 		driver = Init.getDriver();
 		PageFactory.initElements(driver, this);
 	}
