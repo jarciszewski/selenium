@@ -86,9 +86,9 @@ public class MainMenuTest {
 		driver.findElement(By.name("passLast0")).sendKeys("A");
 	}
 
-	/*@After
+	@After
 	public void quit() {
 		Init.quit();
-	}*/
+	}
 
 }
