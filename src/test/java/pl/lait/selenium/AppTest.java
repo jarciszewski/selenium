@@ -1,4 +1,4 @@
-package pl.lait.selenium;
+package org.example.selenium;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
